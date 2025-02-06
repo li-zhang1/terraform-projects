@@ -29,4 +29,6 @@ resource "aws_db_instance" "database_instance" {
   db_subnet_group_name   = aws_db_subnet_group.database_subnet_group.name
   multi_az               = var.multi_az-deploymenet
   vpc_security_group_ids = [aws_security_group.database_security_group.id]
+  storage_encrypted   = true # in order to recreate resources everytime when we run terraform plan
+  
 }
