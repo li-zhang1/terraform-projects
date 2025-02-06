@@ -130,8 +130,8 @@ variable "domain_name" {
 }
 
 variable "record_name" {
-  default     = "shopping.dailycloudproject.com"
-  description = "subdomain name"
+  default     = "shopping"
+  description = "sub domain name"
   type        = string
 }
 
