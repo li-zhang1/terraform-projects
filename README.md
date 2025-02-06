@@ -22,8 +22,8 @@ This project leverages Terraform to automate the provisioning and management of 
 ## Setup and Usage
 1. **Clone the Repository:**
    ```sh
-   git clone YOUR_REPO_LINK
-   cd YOUR_REPO_NAME
+   git clone <REPO LINK>
+   cd <REPO_NAME>
    ```
 2. **Initialize Terraform:**
    ```sh
