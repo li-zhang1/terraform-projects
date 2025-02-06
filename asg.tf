@@ -4,7 +4,7 @@ resource "aws_launch_template" "webserver_launch_template" {
   name          = var.launch_template_name
   image_id      = var.ec2_image_id
   instance_type = var.ec2_instance_type
-  key_name      = var.ec2_key_pair_name  # Optional, not required for Instance Connect
+  key_name      = var.ec2_key_pair_name # Optional, not required for Instance Connect
 
   description = "launch template for asg"
 

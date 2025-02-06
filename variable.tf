@@ -121,3 +121,19 @@ variable "ec2_key_pair_name" {
   description = "name of the ec2 key pair"
   type        = string
 }
+
+# route53 variables
+variable "domain_name" {
+  default     = "dailycloudproject.com"
+  description = "domain name"
+  type        = string
+}
+
+variable "record_name" {
+  default     = "shopping.dailycloudproject.com"
+  description = "subdomain name"
+  type        = string
+}
+
+
+
